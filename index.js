@@ -1,4 +1,5 @@
-import React, { Component, PropTypes } from 'react';
+import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 import {
   NativeModules,
   Platform,
@@ -111,8 +112,7 @@ const ALPRCamera = requireNativeComponent(
    Camera,
    {
      nativeOnly: {
-       'rotateMode': true,
-       'mounted': true
+       'rotateMode': true
      }
    }
 );

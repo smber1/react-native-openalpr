@@ -12,6 +12,8 @@
   "author": "CarDash <www.cardash.com>, Evan Rosenfeld",
   "license": "MIT",
   "peerDependencies": {
-    "react-native": "^0.41.2"
+    "react-native": "^0.41.2",
+    "react": "16.3.1",
+    "prop-types": "^15.6.2"
   }
 }
